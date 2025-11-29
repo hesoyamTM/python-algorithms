@@ -1,0 +1,9 @@
+[run]
+omit =
+    */__init__.py
+    */__main__.py
+    */__version__.py
+    */tests/*
+    */src/main.py
+    */src/constants.py
+    */practice/*
