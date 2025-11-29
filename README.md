@@ -1,5 +1,9 @@
 # python-algorithms
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Реализация алгоритмов и структур данных на Python
+
 ## Installation
 
 ```bash
