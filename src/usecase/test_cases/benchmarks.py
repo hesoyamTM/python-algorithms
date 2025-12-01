@@ -1,4 +1,5 @@
 from typing import Callable
+import time
 
 
 def timeit_once(func, *args, **kwargs) -> float:
@@ -9,8 +10,6 @@ def timeit_once(func, *args, **kwargs) -> float:
     :param kwargs: The keyword arguments to pass to the function
     :return: The time taken to execute the function once
     """
-
-    import time
 
     start = time.time()
     func(*args, **kwargs)
